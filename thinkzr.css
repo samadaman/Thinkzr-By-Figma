@@ -1,0 +1,104 @@
+body{
+    background-color:black;
+}
+.input-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.input-parent input{
+    width: 350px;
+    height: 40px;
+    font-family: 'Rubik', sans-serif;
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+}
+span{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Rubik', sans-serif; 
+    background-color: #FFFFFF;
+}
+.input-parent input::placeholder{
+    font-size: 20px;
+    padding: 20px;
+    color: #FFFFFF 40px;
+}
+.icon-user{
+    border-radius: 5px;
+    border: 2px solid #FFFFFF;
+}
+.icon-pass{
+    border-radius: 5px;
+    width: 375px;
+    height: 42px;
+    border: 2px solid #FFFFFF;
+    margin-top: 25px;
+}
+.link a{
+    color: 
+    #00B2FF;
+    text-decoration: none;
+}
+.link{
+    font-size: large;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 15px;
+    position: relative;
+    right: 100px;
+}
+.link2 a{
+    text-decoration: none;
+    color: #5C9747;
+}
+.link2{
+    font-family: 'Rubik', sans-serif;
+    font-size: large;
+    margin-top: 70px;
+    margin-right: 220px;
+}
+.btn1{
+    background-color: transparent;
+    color: #FFFFFF;
+}
+.both-btn button{
+    margin-top: 10px;
+    width: 150px;
+    height: 45px;
+    /**margin-right: 180px;**/
+    font-family: 'Rubik', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    margin-left: 35px;
+    margin-right:35px; 
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+.btn2{
+    margin-right:50px;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 30px
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.heading1{
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+}
+.img{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
